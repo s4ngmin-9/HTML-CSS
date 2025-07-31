@@ -1,94 +1,82 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="utf-8">
-        <title>정상민 프로필</title>
-        <link href="profile.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+<head>
+    <meta charset="utf-8">
+    <title>정상민 프로필</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
 
-        <style>
-            *{
-    text-align: center;
-}
+    <style>
+        * {
+            text-align: center;
+        }
 
-html{
-    background-color: #FFAF78;
-    font-size: 20px;
-}
+        html {
+            background-color: #FFAF78;
+            font-size: 20px;
+        }
 
-.nanum-pen-script-regular {
-  font-family: "Nanum Pen Script", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
+        body {
+            width: 640px;
+            margin: auto;
+            font-family: "Nanum Pen Script", cursive;
+        }
 
+        h1 {
+            font-size: 48px;
+        }
 
-body{
-    width: 640px;
-    margin: auto;
-    font-family: "Nanum Pen Script", cursive;
-}
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50px;
+            margin-bottom: 20px; /* 이미지 아래 여백 추가 */
+        }
 
-h1{
-    font-size: 48px;
-}
+        #introduce {
+            padding: 20px;
+        }
+        
+        #tmi {
+             padding: 10px 0;
+        }
 
-#introduce {
-    padding: 20px;
-}
-div {
-    padding: 10px 0;
-}
+        p {
+            font-size: 1.1rem;
+            line-height: 1.2;
+            margin: 10px 0; /* 단락 간의 여백 추가 */
+        }
 
-a {
-    text-decoration: none;
-    color: #333;
-}
+        a {
+            text-decoration: none;
+            color: #333;
+        }
 
-a:hover {
-    color: #555;
-}
-
-img{
-    width: 200px;
-    height: 200px;
-    border-radius: 50px;
-}
-
-p{
-    font-size: 1.1rem;
-    line-height: 1.2;
-}
-
-        </style>
+        a:hover {
+            color: #555;
+        }
+    </style>
     </head>
-    <body>
-        <h1>정 상 민</h1>
-        <img 
-        src="../3회차/images/나.jpg"
-        alt="selfie"
-        width="250">
-        <div style="margin-left: 20px;"></div>
-        <div id="introduce">
-            <p>안녕하세요. BE13기 <strong>정상민</strong> 입니다.</p>
-            <p>나이는 27살이고 인천에서 살고 있습니다.</p> 
-            <p>주로 혼자 있는 걸 좋아하지만, 가끔 친한 친구들을
-            만나 놀기도 합니다. <br><strong>집이 제일 좋죠.</strong></p>
-        </div>
-        <hr>
-        <div>
-            <h2>tmi</h2>
-            <p>
-            1. 제 mbti는 <mark>isfj</mark> 입니다.<br>
-            2. <strong>대학생 때 잠깐 코딩을 했지만 거의 까먹었어요.</strong><br>
-            3. <em>css를 다시 배우니 재밌네요 ㅎㅎ!</em><br>
-            4. 노래 부르는 걸 좋아합니다. <s>잘하는 것과는 별개로요..</s>
-            </p>
-        </div>
-        <hr>
-        <a href="https://www.youtube.com/watch?v=zF3b10AKMpU" 
-        target="_blank"> 목요일 노래 추천!</a>
-    </body>
+<body>
+    <h1>정 상 민</h1>
+    <img src="../3회차/images/나.jpg" alt="selfie">
+
+    <div id="introduce">
+        <p>안녕하세요. BE13기 <strong>정상민</strong> 입니다.</p>
+        <p>나이는 27살이고 인천에서 살고 있습니다.</p>
+        <p>주로 혼자 있는 걸 좋아하지만, 가끔 친한 친구들을 만나 놀기도 합니다.</p>
+        <p><strong>집이 제일 좋죠.</strong></p>
+    </div>
+    <hr>
+    <div id="tmi">
+        <h2>tmi</h2>
+        <p>1. 제 mbti는 <mark>isfj</mark> 입니다.</p>
+        <p>2. <strong>대학생 때 잠깐 코딩을 했지만 거의 까먹었어요.</strong></p>
+        <p>3. <em>css를 다시 배우니 재밌네요 ㅎㅎ!</em></p>
+        <p>4. 노래 부르는 걸 좋아합니다. <s>잘하는 것과는 별개로요..</s></p>
+    </div>
+    <hr>
+    <a href="https://www.youtube.com/watch?v=zF3b10AKMpU" target="_blank">추천곡: 죠지, Kizzy, 정바스 - 밤의 피크닉</a>
+</body>
 </html>
