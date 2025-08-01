@@ -1,0 +1,103 @@
+body {
+  font-family: "Pretendard", "Noto Sans KR", sans-serif;
+  background-color: #eee6ff;
+  margin: 0;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#container {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(128, 0, 255, 0.3);
+  padding: 40px;
+  width: 100%;
+  max-width: 600px;
+  border: 2px solid #a45eff;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th {
+  text-align: left;
+  padding: 12px;
+  color: #5f1ddb;
+  font-size: 15px;
+  vertical-align: top;
+  width: 120px;
+}
+
+.table td {
+  padding: 12px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1.5px solid #7a28e0;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+  background-color: #fbf8ff;
+  color: #2e004f;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #6d00ff;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+td label {
+  margin-right: 15px;
+  font-size: 14px;
+  color: #3d0075;
+}
+
+.buttons {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.btn {
+  background-color: #7b1eff;
+  color: white;
+  padding: 12px 22px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #5700cc;
+  transform: translateY(-1px);
+}
+
+input[type="reset"] {
+  background-color: #a566ff;
+}
+
+input[type="reset"]:hover {
+  background-color: #8439ff;
+}
