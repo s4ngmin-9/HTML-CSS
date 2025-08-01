@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>오즈코딩스쿨 회원가입 양식</title>
+    <link href="join.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="container">
+      <h1 style="text-align: center; color: #5f1ddb">오즈코딩스쿨 회원가입</h1>
+      <form id="form" action="#">
+        <table class="table">
+          <tr>
+            <th>아이디</th>
+            <td>
+              <input
+                type="text"
+                name="id"
+                placeholder="아이디를 입력하세요"
+                autocomplete="off"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>비밀번호</th>
+            <td>
+              <input
+                type="password"
+                name="pw1"
+                placeholder="비밀번호를 입력하세요"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>비밀번호 확인</th>
+            <td>
+              <input
+                type="password"
+                name="pw2"
+                placeholder="비밀번호를 다시 입력하세요"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>이름</th>
+            <td>
+              <input
+                type="text"
+                name="name"
+                placeholder="이름을 입력하세요"
+                autocomplete="off"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>전화번호</th>
+            <td>
+              <input
+                type="tel"
+                name="phone"
+                placeholder="휴대폰 번호를 입력하세요"
+                autocomplete="off"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>원하는 과정</th>
+            <td>
+              <select name="position">
+                <option value="backend">백엔드</option>
+                <option value="frontend">프론트엔드</option>
+                <option value="fullstack">풀스택</option>
+                <option value="start-up">1인 창업 개발</option>
+                <option value="ceo">오즈코딩스쿨 CEO</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>성별</th>
+            <td>
+              <label>
+                <input type="radio" name="gender" value="male" checked /> 남자
+              </label>
+              <label>
+                <input type="radio" name="gender" value="female" /> 여자
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>이메일</th>
+            <td>
+              <input
+                type="email"
+                name="email"
+                title="정확한 이메일 주소를 작성해주세요"
+                placeholder="이메일 주소를 입력하세요"
+                autocomplete="off"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>자기소개</th>
+            <td>
+              <textarea
+                name="intro"
+                placeholder="자기소개를 작성해주세요"
+                rows="5"
+              ></textarea>
+            </td>
+          </tr>
+        </table>
+
+        <div class="buttons">
+          <input type="submit" value="가입하기" class="btn" title="가입" />
+          <input type="reset" value="리셋" class="btn" title="처음으로" />
+        </div>
+      </form>
+    </div>
+
+    <script src="join.js"></script>
+  </body>
+</html>
